@@ -16,8 +16,8 @@ ssh_info = {
     'password': '你的SSH密码'       # 你注册的时候收到的密码或者你自己改了的密码
 }
 
-WECHAT_ROBOT_KEY  = '你的企业微信机器人的Key部分'      # 需要替换成你的企业微信机器人的Webhook Key，参考 https://open.work.weixin.qq.com/help2/pc/14931
-webhook_url = f'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key={WECHAT_ROBOT_KEY}'     # 企业微信机器人的Webhook地址
+WECHAT_ROBOT_KEY  = 'f691c3a6-8e21-489a-bf2c-69e933ca253b'      # 需要替换成你的企业微信机器人的Webhook Key，参考 https://open.work.weixin.qq.com/help2/pc/14931
+webhook_url = f'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=f691c3a6-8e21-489a-bf2c-69e933ca253b'     # 企业微信机器人的Webhook地址
 
 # 获取当前脚本文件的绝对路径
 script_dir = os.path.dirname(os.path.abspath(__file__))
